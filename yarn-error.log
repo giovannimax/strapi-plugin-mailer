@@ -1,0 +1,54 @@
+Arguments: 
+  /home/mindlesh/.nvm/versions/node/v10.17.0/bin/node /usr/share/yarn/bin/yarn.js add nodemailer
+
+PATH: 
+  /home/mindlesh/.nvm/versions/node/v10.17.0/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/mnt/c/Windows/system32:/mnt/c/Windows:/mnt/c/Windows/System32/Wbem:/mnt/c/Windows/System32/WindowsPowerShell/v1.0/:/mnt/c/Windows/System32/OpenSSH/:/mnt/c/Program Files/nodejs/:/mnt/c/Program Files/Git/cmd:/mnt/c/ProgramData/chocolatey/bin:/mnt/c/Program Files (x86)/Yarn/bin/:/mnt/c/Gradle/bin:/mnt/c/Program Files/MongoDB/Server/4.2/bin:/mnt/c/Users/giova/AppData/Local/Microsoft/WindowsApps:/mnt/c/Users/giova/AppData/Roaming/npm:/mnt/c/Users/giova/AppData/Local/Programs/Microsoft VS Code/bin:/mnt/c/Users/giova/AppData/Local/Yarn/bin:/home/mindlesh/bin:/usr/lib/jvm/java-8-openjdk-amd64/bin:/home/mindlesh/.yarn/bin:/usr/lib/android-sdk/tools:/usr/lib/android-sdk/platform-tools
+
+Yarn version: 
+  1.19.1
+
+Node version: 
+  10.17.0
+
+Platform: 
+  linux x64
+
+Trace: 
+  Error: getaddrinfo EAI_AGAIN registry.yarnpkg.com registry.yarnpkg.com:443
+      at GetAddrInfoReqWrap.onlookup [as oncomplete] (dns.js:56:26)
+
+npm manifest: 
+  {
+    "name": "strapi-plugin-mailer",
+    "version": "0.0.0",
+    "description": "This is the description of the plugin.",
+    "strapi": {
+      "name": "mailer",
+      "icon": "plug",
+      "description": "Description of mailer plugin."
+    },
+    "dependencies": {},
+    "author": {
+      "name": "A Strapi developer",
+      "email": "",
+      "url": ""
+    },
+    "maintainers": [
+      {
+        "name": "A Strapi developer",
+        "email": "",
+        "url": ""
+      }
+    ],
+    "engines": {
+      "node": ">=10.0.0",
+      "npm": ">=6.0.0"
+    },
+    "license": "MIT"
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
